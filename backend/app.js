@@ -43,7 +43,7 @@ class App {
 
       if (isStatic) return;
 
-      const fullUrl = new (req.url, `http://${req.headers.host}`)();
+      const fullUrl = new URL(req.url, `http://${req.headers.host}`);
       req.query = Object.fromEntries(fullUrl.searchParams);
 
       // const parsedUrl = url.parse(req.url, true);
