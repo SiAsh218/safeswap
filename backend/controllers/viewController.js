@@ -1,4 +1,4 @@
-const templateEngine = require("../TemplateEngine.js");
+const templateEngine = require("../templateEngine.js");
 
 // TODO: need a way of setting this
 //templateEngine.partialsPath = "./public/renderedViews/partials/";

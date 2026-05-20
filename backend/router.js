@@ -1,7 +1,7 @@
 const path = require("path");
 const viewController = require("./controllers/viewController.js");
 
-const templateEngine = require("./TemplateEngine.js");
+const templateEngine = require("./templateEngine.js");
 
 class Router {
   constructor() {
