@@ -1,0 +1,11 @@
+.text--heading {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.text--form-heading {
+  font-weight: bold;
+}

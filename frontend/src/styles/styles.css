@@ -1,0 +1,83 @@
+@import "./variables.css";
+@import "./flex.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./fileinput.css";
+@import "./button.css";
+@import "./table.css";
+@import "./text.css";
+@import "./toggle.css";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--neutral-base);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  color: var(--dark-accent);
+  overflow-y: hidden;
+}
+
+main {
+  height: calc(
+    100vh - 32.5px /* View Height minus the header and footer heights */
+  );
+  overflow-y: auto;
+}
+
+label {
+  padding: 2px;
+  display: block;
+  width: 130px;
+}
+
+/* Input and Select */
+input[type="date"],
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  background-color: white;
+  color: var(--dark-accent);
+  transition: var(--transition);
+}
+
+input[type="date"]:focus,
+select:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(91, 75, 140, 0.2);
+}
+
+/* Checkbox groups */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  accent-color: var(--primary-color);
+}
+
+/* Hidden utility */
+.hidden {
+  display: none !important;
+}
+
+/* Upload section styling */
+.flexbox--top {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background: white;
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-top: 2rem;
+}

@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #5B4B8C; /* Soft Indigo - Brand and primary actions */
+  --secondary-color: #F4A261; /* Warm Peach - Accents and highlights*/
+  --neutral-base: #F8F1E9; /* Off-White -  Background*/
+  --dark-accent: #2D2D2D; /* Charcoal Gray */
+  --pop-color: #A8DADC; /* Mint Green */
+
+  --radius: 0.75rem;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  --transition: all 0.2s ease;
+}

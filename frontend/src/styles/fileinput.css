@@ -1,0 +1,22 @@
+.fileinput {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.fileinput__label {
+  padding: 5px;
+  width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.fileinput__button--select-file .button {
+  background-color: var(--secondary-color);
+  color: var(--dark-accent);
+}
+
+.fileinput__button--select-file .button:hover {
+  background-color: #e99651;
+}

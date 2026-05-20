@@ -1,0 +1,10 @@
+footer {
+  background-color: var(--dark-accent);
+  height: 30px;
+  margin: 0;
+}
+
+footer a {
+  color: white;
+  padding: 2px;
+}
